@@ -58,7 +58,7 @@ export const aboutText = `Highly motivated recent graduate in Electrical and Ele
 export const experienceData = [
     {
         company:'Robodoc',
-        period:'May 2024 - February 2024',
+        period:'May 2024 - February 2025',
         designation: 'Jr. Embedded System Engineer',
         responsibilities:[
             'Product design',

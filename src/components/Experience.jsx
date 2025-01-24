@@ -3,9 +3,9 @@
 import Heading from "./sub/Heading"
 import Image from "next/image"
 import { arrowLeftIcon, experienceData } from "@/app/assets"
-import ArrowLeftSFillIcon from "remixicon-react/ArrowLeftSFillIcon"
 
 const Experience = () => {
+  const date = new Date().getFullYear()
   return (
     <div  className="relative py-20 px-96">
       <Heading text={"Experience & Education"}/>
@@ -32,7 +32,7 @@ const Experience = () => {
                 <span className="absolute top-20 left-full text-red-300 aspect-square">{arrowLeftIcon}</span>
  
           </div>
-          <div className="w-14 absolute top-20 left-full border border-gray-300 rounded-full aspect-square grid place-items-center text-red-400 font-light">2020</div>
+          <div className="w-[13rem] mx-2 absolute top-20   left-full border border-gray-300 rounded-full   text-red-400 font-light">{data.period}</div>
         </div>
           
         ))}
