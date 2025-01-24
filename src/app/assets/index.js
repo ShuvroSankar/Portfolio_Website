@@ -47,14 +47,47 @@ import DownloadLineIcon from "remixicon-react/DownloadLineIcon"
 import ArrowLeftSFillIcon from "remixicon-react/ArrowLeftSFillIcon"
 
 export const downloadLineIcon = <DownloadLineIcon/>
-export const arrowLeftSFillIcon = <ArrowLeftSFillIcon/>
+export const arrowLeftIcon = <ArrowLeftSFillIcon/>
 
-export const aboutText = `Recent B.Sc. graduate in Electrical and Electronic Engineering from American
-International University Bangladesh, eager to leverage academic knowledge in VLSI
-design and automation. Looking to start a career as a Trainee Engineer in IC Physical
-Design with a focus on power, performance, and area optimization using state-of-theart technologies. Proficient in various programming and scripting languages, with a
-strong foundation in digital electronics and physical design processes.`
+export const aboutText = `Highly motivated recent graduate in Electrical and Electronic Engineering from American International University Bangladesh (AIUB), passionate about leveraging academic knowledge and practical skills in IoT hardware engineering. Eager to join Ampec Technologies and Total Electrical Connection as a Hardware Engineer to contribute to the design and development of cutting-edge IoT systems.`
 
 // End of About Me
 
-// Skills
+// Experience
+
+export const experienceData = [
+    {
+        company:'Robodoc',
+        period:'May 2024 - February 2024',
+        designation: 'Jr. Embedded System Engineer',
+        responsibilities:[
+            'Product design',
+            'Product prototyping',
+            'Hardware testing',
+            'Embedded system engineering',
+            'Technical documentation',
+        ],
+    },
+    {
+        company:'LOCUS (co-working and virtual office space)',
+        period:'January 2024 - March 2024',
+        designation: 'Technician',
+        responsibilities:[
+            'IT Support & Maintenance ',
+            'WordPress websites design & development',
+            'Camera Assistant',
+            'animation',
+        ],
+    },
+    {
+        company:'DR. ANWARUL ABEDIN INSTITUTION INNOVATION',
+        period:'March 2023 - June 2023',
+        designation: 'R&D intern',
+        responsibilities:[
+            'Hardware inspection',
+            '3D PCB box design and printing',
+            'Monitoring and testing project deployments',
+            "Research and Development"
+        ],
+    },
+]
