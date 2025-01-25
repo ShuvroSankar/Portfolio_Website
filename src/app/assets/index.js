@@ -91,3 +91,45 @@ export const experienceData = [
         ],
     },
 ]
+
+// Skills
+
+export const skillsData = [
+    {
+        icon: '/skills/C.png',
+    },
+    {
+        icon: '/skills/C++.png',
+    },
+    {
+        icon: '/skills/arduino.png',
+    },
+    {
+        icon: '/skills/stm32.png',
+    },
+    {
+        icon: '/skills/RaspberryPi.png',
+    },
+    {
+        icon: '/skills/kicad.png',
+    },
+    {
+        icon: '/skills/esp32.png',
+    },
+    {
+        icon: '/skills/solidworks.png',
+    },
+    {
+        icon: '/skills/keyshot.png',
+    },
+    {
+        icon: '/skills/react.png',
+    },
+    {
+        icon: '/skills/nodejs.png',
+    },
+    {
+        icon: '/skills/illustrator.png',
+    },
+
+]

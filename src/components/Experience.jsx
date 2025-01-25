@@ -74,7 +74,7 @@ const Experience = () => {
         <motion.div
           initial={{ scaleY: 0 }}
           style={{ scaleY: scrollY }}
-          className="absolute w-1 h-full rounded-full bg-gray-300"
+          className="absolute w-1 h-full rounded-full bg-gray-300 origin-top"
         ></motion.div>
       </div>
     </div>
