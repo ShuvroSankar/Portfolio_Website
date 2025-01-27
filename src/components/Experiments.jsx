@@ -12,7 +12,7 @@ const Experiments = () => {
         <div className="relative w-[800px] lg:w-[600px] md:w-[96%] sm:w-[280px] h-[500px] lg:h-[450px] md:h-[400px] sm:h-[600px] flex items-center justify-center">
             <div className="absolute inset-0 flex flex-col items-center justify-center gap-y-7 lg:gap-y-4 border border-yellow-500 bg-zinc-50 p-14 lg:p-5 rounded-xl">
                 <Image 
-                src={null} 
+                src='/skills/esp32.png' 
                 alt="Experiment Images" 
                 width={130} 
                 height={130}

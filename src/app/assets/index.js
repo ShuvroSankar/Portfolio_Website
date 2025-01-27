@@ -133,3 +133,47 @@ export const skillsData = [
     },
 
 ]
+
+// Experiments
+
+import StarFillIcon from 'remixicon-react/StackFillIcon'
+import StarHalfLineIcon from 'remixicon-react/StarHalfFillIcon'
+import ArrowLeftSLineIcon from 'remixicon-react/ArrowLeftSLineIcon'
+import ArrowRightSLineIcon from 'remixicon-react/ArrowRightSLineIcon'
+import StarHalfFillIcon from "remixicon-react/StarHalfFillIcon"
+
+// eslint-disable-next-line react/jsx-key
+export const starIcons = [<StarFillIcon/>,<StarHalfFillIcon/> ]
+// eslint-disable-next-line react/jsx-key
+export const arrowIcons = [<ArrowLeftSLineIcon/>,<ArrowRightSLineIcon/>]
+
+export const experimentsData = [
+    {
+        image: '/Experiments/Analog Signals Measurement with the NUCLEO Board.png',
+        project_name: `Analog Signals Measurement with the NUCLEO Board`,
+        abstract:  `This project introduces a way to indicate to the user whether an alarm is caused by gas detection,
+                    over temperature detection, or simultaneous gas and over temperature detection. This is based
+                    on controlling the blinking rate of the Alarm LED. It will be explained how to utilize time with the
+                    NUCLEO board, and the usage of delays is introduced.`
+
+    },
+    {
+        image: '/Experiments/Matrix Keypad Reading with the NUCLEO Board.png',
+        project_name: `Matrix Keypad Reading with the NUCLEO Board`,
+        abstract: `In this project, an LCD display is connected to the smart home system. In this 
+                   way, it is possible to show in the Alarm control panel information regarding temperature reading, as 
+                   well as the state of the gas detector and the activation of the alarm.`
+
+    },
+    {
+        image: '/Experiments/Motion Detection and DC Motor Control using Relays and  Interrupts.png',
+        project_name: ` Motion Detection and DC Motor Control using Relays and  Interrupts`,
+        abstract:  ` In this project, a PIR sensor, a motor, four buttons, and two LEDs are connected to the smart home 
+                     system in order to implement the behavior. The PIR sensor is used to detect 
+                     intruders. In that event, the alarm is activated. The motor is used to move a gate, which is activated by 
+                     means of two buttons on the Gate control panel labeled “Open” and “Close”. 
+                     The LEDs (green and red) are used to indicate if the gate is opening or closing. 
+`
+
+    },
+]
