@@ -47,7 +47,7 @@ const Experience = () => {
                 <span className="block pl-2 font-extralight">{data.company}</span>
               </p>
               <div className="text-gray-800">
-                <span className="font-light">Experience:</span>
+                <span className="font-light">Responsibility:</span>
                 <ul className="pl-2">
                   {data.responsibilities.map((rep, j) => (
                     <li key={j} className="my-1 font-extralight">{rep}</li>
@@ -55,7 +55,7 @@ const Experience = () => {
                 </ul>
               </div>
               <span
-                className={`absolute top-20 left-full text-red-300 aspect-square -translate-y-1/2 ${
+                className={`absolute top-20 text-red-300 -translate-y-1/2 ${
                   i % 2 === 0 ? 'left-full rotate-180' : 'right-full'
                 }`}
               >
@@ -63,12 +63,15 @@ const Experience = () => {
               </span>
             </motion.div>
             <div
-              className={`w-[13rem] absolute top-20 border border-gray-300 rounded-full text-red-400 font-light -translate-y-1/2 z-10 bg-white ${
-                i % 2 === 0 ? 'left-full -translate-x-1/2 lg:left-1/2' : 'right-full -translate-x-1/2 lg:right-1/2'
-              }`}
-            >
-              {data.period}
-            </div>
+  className={`w-14 absolute top-20 border border-gray-300 rounded-full aspect-square grid place-items-center text-red-400 font-light z-10 bg-white ${
+    i % 2 === 0 
+    ? 'left-full -translate-x-1/2 lg:left-1/2' 
+    : 'right-full -translate-x-1/2 lg:right-1/2'
+  }`}
+>
+  {/* Replace {data.period} with sequential count (1 to 10) */}
+  {i + 1}
+</div>
           </div>
         ))}
         <motion.div
